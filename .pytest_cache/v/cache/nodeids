@@ -1,0 +1,14 @@
+[
+  "tests/test_janitor.py::test_claim_active_with_fresh_heartbeat",
+  "tests/test_janitor.py::test_claim_active_with_live_pid",
+  "tests/test_janitor.py::test_claim_dead_with_dead_pid",
+  "tests/test_janitor.py::test_claim_dead_with_stale_heartbeat",
+  "tests/test_janitor.py::test_claim_none_when_no_claim_file",
+  "tests/test_janitor.py::test_dry_run_deletes_nothing",
+  "tests/test_janitor.py::test_heartbeat_refreshes_claim",
+  "tests/test_janitor.py::test_prune_never_touches_main_worktree",
+  "tests/test_janitor.py::test_prune_removes_dead_clean_worktree",
+  "tests/test_janitor.py::test_prune_skips_dirty_worktree_with_warning",
+  "tests/test_janitor.py::test_prune_skips_unclaimed_by_default",
+  "tests/test_janitor.py::test_release_removes_claim"
+]
