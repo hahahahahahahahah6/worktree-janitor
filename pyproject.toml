@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "worktree-janitor"
+version = "0.1.0"
+description = "Clean up git worktrees left behind by dead agent sessions"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "hao li" }]
+keywords = ["git", "worktree", "agents", "cleanup", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/hahahahahahahahah6/worktree-janitor"
+Repository = "https://github.com/hahahahahahahahah6/worktree-janitor"
+Issues = "https://github.com/hahahahahahahahah6/worktree-janitor/issues"
+
+[project.scripts]
+wtj = "worktree_janitor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
